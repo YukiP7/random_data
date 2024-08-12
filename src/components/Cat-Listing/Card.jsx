@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Card({ image, name, description, origin, temperament, life_span }) {
+function Card({ image, name, description, origin, temperament, life_span , wikipedia_url}) {
   return (
     <div className='w-96 h-auto bg-white text-black rounded-2xl shadow-lg transition-transform transform hover:scale-105 flex-shrink-0'>
       <div>
@@ -38,7 +38,7 @@ function Card({ image, name, description, origin, temperament, life_span }) {
         </div>
       </div>
 
-      <a href="#" className='block text-blue-500 hover:text-blue-700 decoration-none mb-0 ml-4'>Learn More</a>
+      <a href={wikipedia_url} target='_blank' className='block text-blue-500 hover:text-blue-700 decoration-none mb-0 ml-4'>Learn More</a>
     </div>
   );
 }

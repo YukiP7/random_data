@@ -52,7 +52,8 @@ function CatList() {
                 description={cat.description} 
                 origin={cat.origin} 
                 temperament={cat.temperament} 
-                life_span={cat.life_span} 
+                life_span={cat.life_span}
+                wikipedia_url = {cat.wikipedia_url} 
               />
             ))}
           </div>
