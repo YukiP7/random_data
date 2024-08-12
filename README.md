@@ -8,9 +8,14 @@ Welcome to the **Random Data Website**! Dive into a fun experience where you can
 - **Laugh Out Loud**: Fetch a new joke every time you refresh the joke page.
 - **Cat-tastic Listings**: Browse through a delightful list of cats and their unique features.
 
+## Different pages Accessibility 
+- Random-user : using end-point '/random-user'
+- Random-joke : using end-point '/random-joke'
+- Cats-listing : using end-point '/cats-listing' 
+
 ## Live Demo
 
-Check out the live version here: [Random Data Website](https://random-data-website.netlify.app/)
+Check out the live version here: [Random Data Website](https://random-data-website.vercel.app/)
 
 ## Installation
 
