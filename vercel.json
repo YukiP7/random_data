@@ -1,0 +1,10 @@
+{
+    "version": 2,
+        "rewrites": [
+          { "source": "/(.*)", "destination": "/index.html" },
+          { "source": "/random-user", "destination": "/random-user" },
+          { "source": "/random-joke", "destination": "/random-joke" },
+          { "source": "/cats-listing", "destination": "/cats-listing" }
+        ]
+}
+  
